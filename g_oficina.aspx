@@ -17,3 +17,8 @@
     </div>
 </div>
 </asp:Content>
+
+<asp:Content runat="server" ID="titulo" ContentPlaceHolderID="cphtitulo">
+    <h1 class="intro-text text-center"><strong>Oficinas Disponíveis</strong>
+    </h1>
+</asp:Content>

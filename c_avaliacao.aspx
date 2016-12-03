@@ -6,7 +6,7 @@
     <div class="col-md-8 pull-left">
          <ul class="nav navbar-nav navbar-left">
              <li><a href="#">Homepage</a></li>
-			 <li><a href="#">Reparacao</a></li>
+			 <li><a href="./c_reparacao.aspx">Reparacao</a></li>
 			 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<span class="caret"></span></a>
                     <ul class="dropdown-menu">   
                         <li><a  href="~/">Em Execução</a></li>
@@ -23,4 +23,9 @@
          </ul>
     </div>
 </div>
+</asp:Content>
+
+<asp:Content runat="server" ID="titulo" ContentPlaceHolderID="cphtitulo">
+    <h1 class="intro-text text-center"><strong>Avaliação das Oficinas</strong>
+    </h1>
 </asp:Content>

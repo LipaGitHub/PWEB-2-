@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="c_execucao.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="o_reparacao.aspx.cs" Inherits="Default2" %>
 
 <%-- Add content controls here --%>
 <asp:Content runat="server" ID="Menu" ContentPlaceHolderID="cphmenu" >
@@ -6,12 +6,12 @@
     <div class="col-md-8 pull-left">
          <ul class="nav navbar-nav navbar-left">
              <li><a href="#">Homepage</a></li>
-			 <li><a href="#">Reparacao</a></li>
+			 <li><a href="#">Orçamento</a></li>
 			 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<span class="caret"></span></a>
                     <ul class="dropdown-menu">   
-                       <li><a  href="~/">Em Execução</a></li>
-                       <li><a  href="~/">Histórico</a></li>
-                       <li><a  href="~/">Avaliação</a></li>
+                        <li><a  href="~/">Em Execução</a></li>
+                        <li><a  href="~/">Histórico</a></li>
+                        <li><a  href="~/">Reparações</a></li>
                     </ul>
              </li>
 	      </ul>
@@ -26,6 +26,6 @@
 </asp:Content>
 
 <asp:Content runat="server" ID="titulo" ContentPlaceHolderID="cphtitulo">
-    <h1 class="intro-text text-center"><strong>Reparações em Execução</strong>
+    <h1 class="intro-text text-center"><strong>Reparações</strong>
     </h1>
 </asp:Content>
