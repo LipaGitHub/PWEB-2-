@@ -6,11 +6,11 @@
     <div class="col-md-8 pull-left">
          <ul class="nav navbar-nav navbar-left">
              <li><a href="#">Homepage</a></li>
-			 <li><a href="#">Orçamento</a></li>
-			 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Serviços<span class="caret"></span></a>
+			 <li><a href="#">Serviços</a></li>
+			 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Histórico<span class="caret"></span></a>
                     <ul class="dropdown-menu">   
-                        <li><a  href="~/">Em Execução</a></li>
-                        <li><a  href="~/">Histórico</a></li>
+                        <li><a  href="~/">Clientes</a></li>
+                        <li><a  href="~/">orçamentos</a></li>
                         <li><a  href="~/">Reparações</a></li>
                     </ul>
              </li>
